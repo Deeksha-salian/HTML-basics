@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="myid">Javascript output statements</h2>
+    <script>
+        console.log("Hello console here!")
+        document.write("Hello Javascript")
+        alert("hello")
+        document.getElementById("myid").innerHTML ="HELLO JAVASCRIPT"
+    </script>
+    <p id="data"></p>
+    <button onClick="myfunction()">change</button>
+    <script>
+        function myfunction(){
+    document.getElementById("data").innerHTML="Text changed"
+        }
+    </script>
+    <!-- datatypes -->
+     <script>
+        let num=3;
+        document.write(num)
+        console.log(typeof num)
+        var array=[1,2,3,4,5,6,7,8,9,10]
+        document.write(array)
+        console.log(typeof array)
+        const name="user"
+        document.write(name)
+        console.log(typeof name)
+        console.log("my name is " + name)
+        var userlogin=true
+        console.log(typeof userlogin)
+        const object ={name:"user",email:"user@gmail.com",phone:342568888}
+          console.log(object)
+          
+    </script>
+    <script>
+        
+        let a=5 ,b=5;
+        document.write(a+b)
+        document.write(a-b)
+        document.write(a*b)
+        document.write(a/b)
+    </script>
+</body>
+</html>
